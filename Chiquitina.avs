@@ -20,7 +20,7 @@ ffmpeg -i E:\Videos\Manhattan\Manhattan.avs -c:v libx264 -preset fast -crf 30 -c
 ffplay F:\Videos\Loops\Loops4_1\Script.avs --> Can now be done with the little arrow after the Play button in AvsPmod player (bottom left)
 3) You can use VirtualDub to read the Script.avs like a video. 
 3) For very slow but HQ video and efficient compression (for the file you will upload):
-ffmpeg -i E:\Videos\Manhattan\Manhattan..avs -c:v libx264 -preset veryslow -crf 16 -c:a copy E:\Videos\Manhattan\ManhattanHD.mov
+ffmpeg -i E:\Videos\Manhattan\Manhattan.avs -c:v libx264 -preset veryslow -crf 16 -c:a copy E:\Videos\Manhattan\ManhattanHD.mov
 */
 
 # Beginnin of the script itself:
